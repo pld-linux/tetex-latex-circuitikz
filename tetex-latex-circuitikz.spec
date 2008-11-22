@@ -14,6 +14,7 @@ Source0:	http://home.dei.polimi.it/mredaelli/downloads/circuitikz.zip
 # Source0-md5:	04c429a958182eaf00d45dddd341c02a
 Requires(post,postun):	/usr/bin/texhash
 Requires:	tetex-latex
+Requires:	tetex-pgf
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
